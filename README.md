@@ -28,7 +28,9 @@ python tools/test_ins.py configs/solov2/solov2_r50_3x.py work_dirs/solo_r50_3x/l
 ```
 
 ## Weights
-quickly
+链接：https://pan.baidu.com/s/1tj-E63y5P__nzVFoAKAk4w 
+提取码：14r4 
+
 ## Results
 After training 36 epochs(3x) on the coco dataset using the resnet-101 backbone, the mAP is 37.2 on COCO val-dev2017 dataset. In the original paper, the model achieves 38.8 after 72 epochs(6x).
 
