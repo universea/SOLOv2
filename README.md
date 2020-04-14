@@ -27,6 +27,15 @@ single GPU:
 python tools/test_ins.py configs/solov2/solov2_r50_3x.py work_dirs/solo_r50_3x/latest.pth --show --out results_solo.pkl --eval segm
 ```
 
+## Visual
+Follows the same way as SOLOv1.
+
+single GPU: 
+```
+python tools/test_ins_vis.py configs/solov2/solov2_r50_3x.py  work_dirs/solo_r50_3x/latest.pth --show --save_dir  work_dirs/vis_solo
+```
+
+
 ## Weights
 链接：https://pan.baidu.com/s/1tj-E63y5P__nzVFoAKAk4w 
 提取码：14r4 
